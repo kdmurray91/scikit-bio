@@ -13,6 +13,7 @@
 dist
 build
 eggs
+.eggs
 parts
 bin
 var
@@ -47,3 +48,6 @@ doc/source/generated
 
 # OSX files
 .DS_Store
+
+# IPython/Jupyter temps
+.ipynb_checkpoints
