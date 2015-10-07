@@ -379,6 +379,11 @@ class DissimilarityMatrix(SkbioObject):
 
         ax.set_title(title)
 
+        # Use a tight layout around plot features to ensure nothing is cropped
+        # out and there is no extra space. See
+        # http://stackoverflow.com/questions/6774086
+        fig.tight_layout()
+
         return fig
 
     def _repr_png_(self):
